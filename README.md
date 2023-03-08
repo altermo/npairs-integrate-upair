@@ -10,7 +10,7 @@ This is a plugin which tries to combine the features of [ultimate-autopair.nvim]
 + better newline
 + much better autocompletion support
 + better system for rules
-+ <C-w> and <C-h> mapping support
++ `<C-w>` and `<C-h>` mapping support
 + fastwrap support
 + better treesitter support
 + more extendible
