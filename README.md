@@ -26,7 +26,7 @@ use {
 # configuration
 For options where the plugin can be chosen, use `u` for ultimate-autopair.vim, `n` for nvim-autopair and ` ` for disable.
 ```lua
-map='u', --which of them should be the insert mode autopair
+map='n', --which of them should be the insert mode autopair
 cmap='u', --which of them should be the cmd mode autopair (only 'u' supported)
 bs='n', --which of them should be the backspace
 cr='n', --which of them should be the newline

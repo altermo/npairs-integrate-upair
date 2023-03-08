@@ -1,6 +1,6 @@
 local M={}
 M.default_config={
-    map='u',
+    map='n',
     cmap='u',
     bs='n',
     cr='n',
