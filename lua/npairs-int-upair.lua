@@ -41,7 +41,7 @@ function M.init_upari()
         },
         fastend={enable=false},
     }
-    upair.setup(vim.tbl_deep_extend('force',config,M.default_config.upair_conf))
+    upair.setup(vim.tbl_deep_extend('force',config,M.config.upair_conf))
 end
 function M.init_nparis()
     local status,npairs=pcall(require,'nvim-autopairs')
@@ -55,7 +55,7 @@ function M.init_nparis()
         map_c_h=(M.config.c_h=='n'),
         map_c_w=(M.config.c_w=='n'),
     }
-    npairs.setup(vim.tbl_deep_extend('force',config,M.default_config.npairs_conf))
+    npairs.setup(vim.tbl_deep_extend('force',config,M.config.npairs_conf))
     if M.config.map~='n' then
         for _,i in ipairs(npairs.config.rules) do
             i.key_map=nil
